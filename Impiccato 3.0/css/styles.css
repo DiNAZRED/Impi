@@ -1,0 +1,22 @@
+body {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.3em;
+}
+
+header > nav.navbar {
+	border-radius: 0;
+}
+
+a.navbar-brand > img {
+	float: left;
+	margin-right: 10px;
+	margin-top: -3px;
+}
+
+a.navbar-brand > span {
+	font-size: 1.3em;
+}
+
+a.navbar-brand:hover, a.navbar-brand:focus {
+	text-shadow: 0px 0px 5px white;
+}
