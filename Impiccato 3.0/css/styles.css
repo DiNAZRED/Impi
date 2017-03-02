@@ -1,6 +1,6 @@
 body {
 	font-family: 'Indie Flower', cursive;
-	font-size: 180%;
+	font-size: 140%;
 }
 
 header > nav.navbar {
@@ -14,7 +14,7 @@ a.navbar-brand > img {
 }
 
 a.navbar-brand > span {
-	font-size: 1.3em;
+	font-size: 1.35em;
 }
 
 a.navbar-brand:hover, a.navbar-brand:focus {
@@ -22,6 +22,7 @@ a.navbar-brand:hover, a.navbar-brand:focus {
 }
 
 ul.navbar-nav > li > a {
+	font-size: 1.3em;
 	padding-bottom: 10px;
 }
 
@@ -29,4 +30,8 @@ div > div.modal-header {
 	background-color: #AADDAA;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
+}
+
+button.close {
+	font-size: 30px;
 }
